@@ -34,7 +34,7 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async () => {
 
 	console.log(`PossumBot Is Now Activated`);
-	bot.user.setActivity(`With Knives`);
+	bot.user.setActivity(`chill music!`);
 
     bot.generateInvite({
 
